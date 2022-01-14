@@ -2,30 +2,95 @@
   background-color: rgba(47, 48, 58, 1);
   text-align: center;
   padding: 200px 0;
+  @media screen and (max-width: 1199px) {
+    padding: 118px 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
 }
+
 .overlay {
-  max-width: 1600px;
+  max-width: auto;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/header.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    url("../img/hero/mobile/mobile.jpg");
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/mobile/mobile2x.jpg");
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/tablet/tablet.jpg");
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/tablet/tablet2x.jpg");
+  }
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/pc/pc.jpg");
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/pc/pc2x.jpg");
+  }
 }
 
 .hero__title {
-  color: $additional-color;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  color: $additional-color;
+  @media screen and (max-width: 1199px) {
+    font-size: 26px;
+    line-height: 1.61;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero__button {
