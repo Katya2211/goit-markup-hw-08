@@ -22,6 +22,9 @@
 .occupation__item {
   list-style-type: none;
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .occupation__item {
   display: flex;
@@ -30,7 +33,4 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.occupation__item:not(:last-child) {
-  margin-right: 30px;
 }
