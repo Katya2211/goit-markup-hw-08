@@ -1,7 +1,7 @@
 .hero {
-  background-color: rgba(47, 48, 58, 1);
+  display: flex;
   text-align: center;
-  padding: 200px 0;
+  background-color: rgba(47, 48, 58, 1);
   @media screen and (max-width: 1199px) {
     padding: 118px 0;
   }
@@ -10,7 +10,7 @@
   }
 }
 
-.hero.overlay {
+.overlay {
   max-width: auto;
   height: 400px;
   margin-left: auto;
