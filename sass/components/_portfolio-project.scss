@@ -51,7 +51,6 @@
   margin-bottom: 30px;
 
   @media screen and (max-width: 767px) {
-    width: 450px;
     &:nth-last-child(-n + 1) {
       margin-bottom: 0px;
     }

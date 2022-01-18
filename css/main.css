@@ -1910,9 +1910,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .project__item {
-    width: 450px;
-  }
   .project__item:nth-last-child(-n + 1) {
     margin-bottom: 0px;
   }
