@@ -8,8 +8,8 @@
   }
 }
 .company__link {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: 92px;
   display: flex;
   color: #afb1b8;
   border: 1px solid #afb1b8;
@@ -47,7 +47,7 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    width: calc((100% - 6 * 30px) / 6);
+    width: calc((100% - 5 * 30px) / 6);
     &:not(:last-child) {
       margin-right: 30px;
     }

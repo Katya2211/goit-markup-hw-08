@@ -63,12 +63,12 @@
   height: 70px;
 }
 .benefits__container {
-  width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   align-items: center;
-  display: inline-flex;
+  display: block;
   margin-bottom: 30px;
   justify-content: center;
+  display: flex;
 }

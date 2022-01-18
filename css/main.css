@@ -574,7 +574,7 @@ summary {
     font-size: 24px;
     line-height: 1.16;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: #2196f3;
   }
 }
 
@@ -816,7 +816,6 @@ summary {
 }
 
 .benefits__container {
-  width: 270px;
   height: 120px;
   background: #f5f4fa;
   -webkit-border-radius: 4px;
@@ -825,15 +824,16 @@ summary {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   margin-bottom: 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .occupation {
@@ -1039,6 +1039,16 @@ img {
   fill: currentColor;
 }
 
+.network__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 .company {
   text-decoration: none;
   -webkit-box-pack: center;
@@ -1064,8 +1074,8 @@ img {
 }
 
 .company__link {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: 92px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1127,8 +1137,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .company__item {
-    width: -webkit-calc((100% - 6 * 30px) / 6);
-    width: calc((100% - 6 * 30px) / 6);
+    width: -webkit-calc((100% - 5 * 30px) / 6);
+    width: calc((100% - 5 * 30px) / 6);
   }
   .company__item:not(:last-child) {
     margin-right: 30px;
@@ -1412,9 +1422,7 @@ img {
 }
 
 .modal {
-  padding: 40px 40px;
-  height: 582px;
-  width: 528px;
+  padding: 40px;
   background-color: #ffffff;
   position: absolute;
   max-width: 450px;
@@ -1445,14 +1453,12 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .modal {
     width: 450px;
-    top: 35%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .modal {
     max-width: 528px;
-    top: 40%;
   }
 }
 
@@ -1475,16 +1481,11 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-}
-
-.button-wrapper:not(:last-child) {
-  margin-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
 }
 
 .form-feedback__button {
@@ -1580,7 +1581,10 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  margin-bottom: 28px;
+}
+
+.form__wrapper:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .form__wrapper:checked {
@@ -1622,7 +1626,6 @@ img {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 44px;
-  width: 448px;
   height: 40px;
   margin-top: 4px;
   cursor: pointer;
@@ -1672,7 +1675,7 @@ img {
           justify-content: center;
 }
 
-.checkbox {
+.form-feedback__checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1684,25 +1687,31 @@ img {
 }
 
 .form-feedback__image {
-  width: 16px;
-  height: 15px;
+  margin-right: 8.22px;
   -webkit-border-radius: 2px;
           border-radius: 2px;
+  -webkit-background-size: contain;
+          background-size: contain;
   border: 2px solid #212121;
   margin-right: 8px;
+  -webkit-transition-property: fill, background-color, background-image;
+  -o-transition-property: fill, background-color, background-image;
+  transition-property: fill, background-color, background-image;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked + .form-feedback__image {
+.form-feedback__checkbox:checked + .form-feedback__image {
   fill: #2196f3;
   background-color: #2196f3;
-  border: transparent;
 }
 
 .modal__close {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   position: absolute;
   right: 8px;
   top: 8px;
