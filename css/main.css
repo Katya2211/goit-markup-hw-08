@@ -393,10 +393,6 @@ summary {
   }
 }
 
-.nav {
-  margin-left: 93px;
-}
-
 .nav__list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -485,7 +481,8 @@ summary {
 
 @media screen and (max-width: 767px) {
   .contact {
-    margin-top: 302px;
+    margin-top: auto;
+    margin-left: 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -574,6 +571,12 @@ summary {
     font-size: 24px;
     line-height: 1.16;
     letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact__link-hover {
     color: #2196f3;
   }
 }
@@ -1422,12 +1425,14 @@ img {
 }
 
 .modal {
-  padding: 40px;
   background-color: #ffffff;
   position: absolute;
-  max-width: 450px;
   top: 50%;
   left: 50%;
+  max-width: 450px;
+  padding: 40px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1564,7 +1569,7 @@ img {
   }
 }
 
-.form-feedback__policy .form-feedback__link {
+.form-feedback__link {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
@@ -2107,10 +2112,6 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
   z-index: 1;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -2132,16 +2133,26 @@ img {
 }
 
 .mobile-menu.is-open {
-  max-width: 767px;
+  width: 100%;
   position: fixed;
+  bottom: 0;
   top: 0;
   left: 0;
-  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   overflow-y: scroll;
-  display: block;
   background-color: white;
-  width: auto;
-  height: auto;
   padding: 48px 40px;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);

@@ -1,10 +1,11 @@
 .modal {
-  padding: 40px;
   background-color: $additional-color;
   position: absolute;
-  max-width: 450px;
   top: 50%;
   left: 50%;
+  max-width: 450px;
+  padding: 40px;
+  border-radius: 4px;
   transition-timing-function: $time-function;
   transition-property: transform;
   transition-duration: $transition-duration;
@@ -84,7 +85,7 @@
     line-height: 1.1;
   }
 }
-.form-feedback__policy .form-feedback__link {
+.form-feedback__link {
   text-decoration-line: underline;
   color: #2196f3;
 }
