@@ -1,12 +1,14 @@
+.network {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
 .social-network {
   display: flex;
   justify-content: center;
-  padding-left: 0;
-  margin-top: 16px;
 }
 .social-network__item:not(:last-child) {
   margin-right: 10px;
-  list-style: none;
 }
 
 .social-network__link {
