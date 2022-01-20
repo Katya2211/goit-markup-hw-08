@@ -627,19 +627,19 @@ summary {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/tablet/tablet1x.png");
-    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet1x.png");
-    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet1x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet1x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/tablet/tablet.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet.jpg");
+    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) {
   .overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/tablet/tablet2x.png");
-    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet2x.png");
-    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet2x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet2x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/tablet/tablet2x.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet2x.jpg");
+    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/tablet/tablet2x.jpg");
   }
 }
 
@@ -649,19 +649,19 @@ summary {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/pc/pc.png");
-    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc.png");
-    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/pc/pc.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc.jpg");
+    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc.jpg");
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) {
   .overlay {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/pc/pc2x.png");
-    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc2x.png");
-    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc2x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc2x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/pc/pc2x.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc2x.jpg");
+    background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/pc/pc2x.jpg");
   }
 }
 
@@ -688,19 +688,17 @@ summary {
 }
 
 .hero__button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
   background-color: #2196f3;
   color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
   cursor: pointer;
+  font-weight: 700;
+  min-width: 200px;
+  font-size: 16px;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
   display: inline-block;
   padding: 10px 32px;
-  margin-top: 30px;
   border: transparent;
-  letter-spacing: 0.06em;
   -webkit-border-radius: 4px;
           border-radius: 4px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -753,7 +751,6 @@ summary {
 
 @media screen and (max-width: 767px) {
   .benefits__item {
-    max-width: 450px;
     margin-bottom: 30px;
   }
   .benefits__item:nth-last-child(-n + 1) {
@@ -1036,6 +1033,17 @@ img {
 .social-network__link:hover, .social-network__link:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+.social-network__link--color {
+  color: #ffffff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-network__link--color:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-network__icon {
@@ -1550,7 +1558,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
@@ -1755,7 +1762,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .filters {
-    width: 450px;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
@@ -1821,7 +1827,6 @@ img {
           border-radius: 4px;
   cursor: pointer;
   padding: 6px 22px;
-  margin: 0;
   border: transparent;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, -webkit-box-shadow;
@@ -1910,7 +1915,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  margin: 0;
+  margin-bottom: 4px;
 }
 
 .project__text {
@@ -1926,6 +1931,9 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .project__item {
+    width: 450px;
+  }
   .project__item:nth-last-child(-n + 1) {
     margin-bottom: 0px;
   }

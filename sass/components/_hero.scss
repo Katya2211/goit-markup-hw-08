@@ -39,7 +39,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/hero/tablet/tablet1x.png");
+      url("../img/hero/tablet/tablet.jpg");
   }
   @media screen and (min-device-pixel-ratio: 2) {
     background-image: linear-gradient(
@@ -47,7 +47,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/hero/tablet/tablet2x.png");
+      url("../img/hero/tablet/tablet2x.jpg");
   }
   @media screen and (min-width: 1200px) {
     height: 600px;
@@ -59,7 +59,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/hero/pc/pc.png");
+      url("../img/hero/pc/pc.jpg");
   }
   @media screen and (min-device-pixel-ratio: 2) {
     background-image: linear-gradient(
@@ -67,7 +67,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/hero/pc/pc2x.png");
+      url("../img/hero/pc/pc2x.jpg");
   }
 }
 
@@ -88,19 +88,17 @@
 }
 
 .hero__button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
   background-color: $accent-color;
   color: $additional-color;
-  margin-left: auto;
-  margin-right: auto;
   cursor: pointer;
+  font-weight: 700;
+  min-width: 200px;
+  font-size: 16px;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
   display: inline-block;
   padding: 10px 32px;
-  margin-top: 30px;
   border: transparent;
-  letter-spacing: 0.06em;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition-property: box-shadow, background-color, box-shadow;
